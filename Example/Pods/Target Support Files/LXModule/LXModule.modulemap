@@ -1,0 +1,6 @@
+framework module LXModule {
+  umbrella header "LXModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,18 @@
+PODS:
+  - LXModule/UI (1.0.0):
+    - LXModule/UI/NavigationController (= 1.0.0)
+  - LXModule/UI/NavigationController (1.0.0)
+
+DEPENDENCIES:
+  - LXModule/UI (from `../`)
+
+EXTERNAL SOURCES:
+  LXModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LXModule: cfb2745ac9df6c854ee29f5212a193e5d466660e
+
+PODFILE CHECKSUM: 5e0fbdf41957cafa65734a4fed18dc8284edc36c
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,6 @@
+framework module Pods_LXModule_Tests {
+  umbrella header "Pods-LXModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

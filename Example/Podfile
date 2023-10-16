@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'LXModule_Example' do
+#  pod 'LXModule', :path => '../'
+  pod 'LXModule/UI/NavigationController', :path => '../'
+
+  target 'LXModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
