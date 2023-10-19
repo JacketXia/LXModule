@@ -1,18 +1,33 @@
 PODS:
+  - LXModule (1.0.0):
+    - LXModule/iOS (= 1.0.0)
+    - LXModule/UI (= 1.0.0)
+  - LXModule/iOS (1.0.0):
+    - LXModule/iOS/Orientation (= 1.0.0)
+    - LXModule/iOS/Window (= 1.0.0)
+  - LXModule/iOS/Orientation (1.0.0)
+  - LXModule/iOS/Window (1.0.0)
   - LXModule/UI (1.0.0):
     - LXModule/UI/NavigationController (= 1.0.0)
   - LXModule/UI/NavigationController (1.0.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - LXModule/UI (from `../`)
+  - LXModule (from `../`)
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   LXModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LXModule: cfb2745ac9df6c854ee29f5212a193e5d466660e
+  LXModule: 5cd0fb7f290aead6cdbf818ad4e58129c2f28690
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 5e0fbdf41957cafa65734a4fed18dc8284edc36c
+PODFILE CHECKSUM: 51c22ca6dff432b99748ce88c620bc3be18e212d
 
 COCOAPODS: 1.12.1

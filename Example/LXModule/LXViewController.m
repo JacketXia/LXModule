@@ -7,7 +7,6 @@
 //
 
 #import "LXViewController.h"
-#import <LXModule/LXNavigationViewController.h>
 
 @interface LXViewController ()
 
@@ -23,14 +22,20 @@
 
 - (IBAction)onNavigationController:(UIButton *)sender {
     
-    NSLog(@"%f",[[UIApplication sharedApplication] windows].firstObject.windowLevel);
-    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     
     UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"NavigationController"];
     
     [self presentViewController:vc animated:YES completion:nil];
-    
+}
+
+- (IBAction)onOrientation:(UIButton *)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+
+    UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"Orientation"];
+    vc.modalPresentationStyle = 0;
+
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,6 +7,8 @@
 //
 
 #import "LXAppDelegate.h"
+#import <LXModule/LXOrientationControl.h>
+#import <LXModule/LXLandscapeWindow.h>
 
 @implementation LXAppDelegate
 
@@ -14,6 +16,16 @@
 {
     // Override point for customization after application launch.
     return YES;
+}
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    NSLog(@"%@",window);
+    if ([LXLandscapeWindow canRespond:window]) {
+        return [LXLandscapeWindow supportOrientaion:window];
+    }else if (LXOrientationControl.canRespond) {
+        return LXOrientationControl.supportOrientation;
+    }
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

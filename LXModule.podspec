@@ -21,11 +21,11 @@ s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'https://github.com/xiawenbin/LXModule'
+s.homepage         = 'https://github.com/JacketXia/LXModule'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'xiawenbin' => 'xiaxiaxiawb@163.com' }
-s.source           = { :git => 'https://github.com/xiawenbin/LXModule.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/JacketXia/LXModule.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '12.0'
@@ -40,6 +40,21 @@ s.subspec 'UI' do |sp|
   end
 
 end
+
+s.subspec 'iOS' do |is|
+  # sp.source_files = 'LXModule/Classes/iOS/**/*'
+
+  is.subspec 'Orientation' do |ot|
+    ot.source_files = 'LXModule/Classes/iOS/Orientation/**/*'
+  end
+  
+  is.subspec 'Window' do |wd|
+    wd.source_files = 'LXModule/Classes/iOS/Window/**/*'
+  end
+  
+end
+
+
 
 # s.resource_bundles = {
 #   'LXModule' => ['LXModule/Assets/*.png']

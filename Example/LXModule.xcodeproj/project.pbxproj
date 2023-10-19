@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0789FB2ADFCDB800A03135 /* OrientationWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0789FA2ADFCDB800A03135 /* OrientationWindowViewController.m */; };
+		4A0789FE2ADFCF6E00A03135 /* OrientationPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0789FD2ADFCF6E00A03135 /* OrientationPushViewController.m */; };
+		4A925ED92ADCE3280062B799 /* OrientationAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A925ED82ADCE3280062B799 /* OrientationAutoViewController.m */; };
+		4A925EE52ADD29420062B799 /* OrientationHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A925EE42ADD29420062B799 /* OrientationHomeViewController.m */; };
+		4A925EEE2ADD34020062B799 /* OrientationModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A925EED2ADD34020062B799 /* OrientationModalViewController.m */; };
 		4AC144762AD945CC003DDD7F /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC144702AD945CC003DDD7F /* SectionViewController.m */; };
 		4AC144772AD945CC003DDD7F /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC144712AD945CC003DDD7F /* BaseNavigationViewController.m */; };
 		4AC144782AD945CC003DDD7F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC144742AD945CC003DDD7F /* FirstViewController.m */; };
@@ -41,6 +46,16 @@
 
 /* Begin PBXFileReference section */
 		0D4406556844F6BE3BC8D93F /* Pods_LXModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0789F92ADFCDB800A03135 /* OrientationWindowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationWindowViewController.h; sourceTree = "<group>"; };
+		4A0789FA2ADFCDB800A03135 /* OrientationWindowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationWindowViewController.m; sourceTree = "<group>"; };
+		4A0789FC2ADFCF6E00A03135 /* OrientationPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationPushViewController.h; sourceTree = "<group>"; };
+		4A0789FD2ADFCF6E00A03135 /* OrientationPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationPushViewController.m; sourceTree = "<group>"; };
+		4A925ED72ADCE3280062B799 /* OrientationAutoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationAutoViewController.h; sourceTree = "<group>"; };
+		4A925ED82ADCE3280062B799 /* OrientationAutoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationAutoViewController.m; sourceTree = "<group>"; };
+		4A925EE32ADD29420062B799 /* OrientationHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationHomeViewController.h; sourceTree = "<group>"; };
+		4A925EE42ADD29420062B799 /* OrientationHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationHomeViewController.m; sourceTree = "<group>"; };
+		4A925EEC2ADD34020062B799 /* OrientationModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationModalViewController.h; sourceTree = "<group>"; };
+		4A925EED2ADD34020062B799 /* OrientationModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationModalViewController.m; sourceTree = "<group>"; };
 		4AC144702AD945CC003DDD7F /* SectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
 		4AC144712AD945CC003DDD7F /* BaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
 		4AC144722AD945CC003DDD7F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -104,6 +119,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A925ED62ADCE30A0062B799 /* Orientation */ = {
+			isa = PBXGroup;
+			children = (
+				4A925ED72ADCE3280062B799 /* OrientationAutoViewController.h */,
+				4A925ED82ADCE3280062B799 /* OrientationAutoViewController.m */,
+				4A0789FC2ADFCF6E00A03135 /* OrientationPushViewController.h */,
+				4A0789FD2ADFCF6E00A03135 /* OrientationPushViewController.m */,
+				4A925EEC2ADD34020062B799 /* OrientationModalViewController.h */,
+				4A925EED2ADD34020062B799 /* OrientationModalViewController.m */,
+				4A0789F92ADFCDB800A03135 /* OrientationWindowViewController.h */,
+				4A0789FA2ADFCDB800A03135 /* OrientationWindowViewController.m */,
+				4A925EE32ADD29420062B799 /* OrientationHomeViewController.h */,
+				4A925EE42ADD29420062B799 /* OrientationHomeViewController.m */,
+			);
+			path = Orientation;
+			sourceTree = "<group>";
+		};
 		4AC1446F2AD9457B003DDD7F /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +186,7 @@
 		6003F593195388D20070C39A /* Example for LXModule */ = {
 			isa = PBXGroup;
 			children = (
+				4A925ED62ADCE30A0062B799 /* Orientation */,
 				4AC1446F2AD9457B003DDD7F /* NavigationController */,
 				6003F59C195388D20070C39A /* LXAppDelegate.h */,
 				6003F59D195388D20070C39A /* LXAppDelegate.m */,
@@ -329,10 +362,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LXModule_Example/Pods-LXModule_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LXModule/LXModule.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LXModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -390,12 +425,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A925EEE2ADD34020062B799 /* OrientationModalViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LXAppDelegate.m in Sources */,
 				4AC144782AD945CC003DDD7F /* FirstViewController.m in Sources */,
+				4A0789FE2ADFCF6E00A03135 /* OrientationPushViewController.m in Sources */,
+				4A0789FB2ADFCDB800A03135 /* OrientationWindowViewController.m in Sources */,
 				4AC144772AD945CC003DDD7F /* BaseNavigationViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* LXViewController.m in Sources */,
 				4AC144762AD945CC003DDD7F /* SectionViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4A925EE52ADD29420062B799 /* OrientationHomeViewController.m in Sources */,
+				4A925ED92ADCE3280062B799 /* OrientationAutoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

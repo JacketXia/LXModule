@@ -3,12 +3,27 @@ use_frameworks!
 platform :ios, '12.0'
 
 target 'LXModule_Example' do
-#  pod 'LXModule', :path => '../'
-  pod 'LXModule/UI/NavigationController', :path => '../'
+  pod 'LXModule', :path => '../'
+#  pod 'LXModule/UI/NavigationController', :path => '../'
+
+  pod 'Masonry', '~> 1.1.0'
 
   target 'LXModule_Tests' do
     inherit! :search_paths
 
     
+  
+    
+  end
+end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['CODE_SIGN_IDENTITY'] = ''
+            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
+         end
+    end
   end
 end

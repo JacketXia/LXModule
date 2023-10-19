@@ -14,6 +14,13 @@
 
 @end
 
+#if DEBUG
+#define BLLog(format, ...) printf("\n%s\n",[[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String])
+
+#else
+#define BLLog(format, ...)
+#endif
+
 @implementation FirstViewController
 
 - (void)viewDidLoad {
@@ -33,7 +40,8 @@
 
 - (void)onButton {
 //    [self.navigationController replaceViewController:[[SectionViewController alloc] init] animated:YES];
-    [self.navigationController pushViewController:[[SectionViewController alloc] init] animated:YES];
+//    [self.navigationController pushViewController:[[SectionViewController alloc] init] animated:YES];
+    BLLog(@"dadadada");
 }
 
 - (BOOL)lx_showNavigationBar {
