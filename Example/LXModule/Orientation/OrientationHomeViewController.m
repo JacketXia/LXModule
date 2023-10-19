@@ -44,7 +44,7 @@
 
 - (IBAction)onPage3:(id)sender {
     OrientationWindowViewController *vc = [[OrientationWindowViewController alloc] init];
-    [LXLandscapeWindow pushViewController:vc animated:NO];
+    [LXLandscapeWindow pushViewController:vc animated:YES];
 }
 
 

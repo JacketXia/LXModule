@@ -41,11 +41,6 @@
     }];
 }
 
-/// 模态出来控制器页面
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation {
-    return UIInterfaceOrientationLandscapeRight;
-}
-
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     LXOrientationControl.supportOrientation = UIInterfaceOrientationMaskPortrait;
     [self dismissViewControllerAnimated:NO completion:nil];
