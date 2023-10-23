@@ -226,7 +226,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKO-kg-cxC">
-                                <rect key="frame" x="0.0" y="64" width="375" height="138.5"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="184.5"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="自动旋转">
                                     <color key="titleColor" systemColor="linkColor"/>
@@ -236,7 +236,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAP-kd-mvS">
-                                <rect key="frame" x="0.0" y="202.5" width="375" height="138.5"/>
+                                <rect key="frame" x="0.0" y="248.5" width="375" height="185"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="push横屏">
                                     <color key="titleColor" systemColor="linkColor"/>
@@ -246,7 +246,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQJ-CV-fHp">
-                                <rect key="frame" x="0.0" y="341" width="375" height="138.5"/>
+                                <rect key="frame" x="0.0" y="433.5" width="375" height="184.5"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="模态横屏">
                                     <color key="titleColor" systemColor="linkColor"/>
@@ -255,26 +255,13 @@
                                     <action selector="onPage2:" destination="fNM-qA-d9Y" eventType="touchUpInside" id="BG7-8m-J8H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wkz-05-fas">
-                                <rect key="frame" x="0.0" y="479.5" width="375" height="138.5"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="window横屏">
-                                    <color key="titleColor" systemColor="linkColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="onPage3:" destination="fNM-qA-d9Y" eventType="touchUpInside" id="Ust-36-vN8"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Wkz-05-fas" secondAttribute="trailing" id="Brq-hb-XAf"/>
                             <constraint firstItem="RQJ-CV-fHp" firstAttribute="height" secondItem="KKO-kg-cxC" secondAttribute="height" id="Eda-uR-RWc"/>
                             <constraint firstItem="UAP-kd-mvS" firstAttribute="top" secondItem="KKO-kg-cxC" secondAttribute="bottom" id="F2C-YJ-Quj"/>
-                            <constraint firstItem="Wkz-05-fas" firstAttribute="leading" secondItem="car-Fe-j0M" secondAttribute="leading" id="Gwb-vz-gaG"/>
-                            <constraint firstItem="pQG-LB-A4Z" firstAttribute="top" secondItem="Wkz-05-fas" secondAttribute="bottom" id="I3K-Mg-nJH"/>
-                            <constraint firstItem="Wkz-05-fas" firstAttribute="height" secondItem="KKO-kg-cxC" secondAttribute="height" id="IuH-Xq-Irq"/>
                             <constraint firstAttribute="trailing" secondItem="UAP-kd-mvS" secondAttribute="trailing" id="QbM-me-kvH"/>
+                            <constraint firstItem="pQG-LB-A4Z" firstAttribute="top" secondItem="RQJ-CV-fHp" secondAttribute="bottom" id="Vpz-mx-ljl"/>
                             <constraint firstItem="KKO-kg-cxC" firstAttribute="top" secondItem="YGW-De-OWT" secondAttribute="bottom" id="Xur-vK-bgN"/>
                             <constraint firstItem="UAP-kd-mvS" firstAttribute="leading" secondItem="car-Fe-j0M" secondAttribute="leading" id="cPC-S1-3o0"/>
                             <constraint firstAttribute="trailing" secondItem="KKO-kg-cxC" secondAttribute="trailing" id="cho-Ed-E5S"/>
@@ -283,7 +270,6 @@
                             <constraint firstItem="RQJ-CV-fHp" firstAttribute="height" secondItem="UAP-kd-mvS" secondAttribute="height" id="o8e-kX-qnb"/>
                             <constraint firstAttribute="trailing" secondItem="RQJ-CV-fHp" secondAttribute="trailing" id="ome-IT-Keh"/>
                             <constraint firstItem="RQJ-CV-fHp" firstAttribute="leading" secondItem="car-Fe-j0M" secondAttribute="leading" id="pZg-f8-1RW"/>
-                            <constraint firstItem="Wkz-05-fas" firstAttribute="top" secondItem="RQJ-CV-fHp" secondAttribute="bottom" id="sWi-lG-zmM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g4P-b7-TNM"/>

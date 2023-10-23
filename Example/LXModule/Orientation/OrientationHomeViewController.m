@@ -12,8 +12,6 @@
 #import "OrientationAutoViewController.h"
 #import "OrientationPushViewController.h"
 #import "OrientationModalViewController.h"
-#import <LXModule/LXLandscapeWindow.h>
-#import "OrientationWindowViewController.h"
 
 @interface OrientationHomeViewController ()
 
@@ -40,11 +38,6 @@
 - (IBAction)onPush:(id)sender {
     OrientationPushViewController *vc = [[OrientationPushViewController alloc] init];
     [self.navigationController pushViewController:vc animated:NO];
-}
-
-- (IBAction)onPage3:(id)sender {
-    OrientationWindowViewController *vc = [[OrientationWindowViewController alloc] init];
-    [LXLandscapeWindow pushViewController:vc animated:YES];
 }
 
 

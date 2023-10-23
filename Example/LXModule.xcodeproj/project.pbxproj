@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A0789FB2ADFCDB800A03135 /* OrientationWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0789FA2ADFCDB800A03135 /* OrientationWindowViewController.m */; };
 		4A0789FE2ADFCF6E00A03135 /* OrientationPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0789FD2ADFCF6E00A03135 /* OrientationPushViewController.m */; };
 		4A925ED92ADCE3280062B799 /* OrientationAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A925ED82ADCE3280062B799 /* OrientationAutoViewController.m */; };
 		4A925EE52ADD29420062B799 /* OrientationHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A925EE42ADD29420062B799 /* OrientationHomeViewController.m */; };
@@ -46,8 +45,6 @@
 
 /* Begin PBXFileReference section */
 		0D4406556844F6BE3BC8D93F /* Pods_LXModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A0789F92ADFCDB800A03135 /* OrientationWindowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationWindowViewController.h; sourceTree = "<group>"; };
-		4A0789FA2ADFCDB800A03135 /* OrientationWindowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationWindowViewController.m; sourceTree = "<group>"; };
 		4A0789FC2ADFCF6E00A03135 /* OrientationPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationPushViewController.h; sourceTree = "<group>"; };
 		4A0789FD2ADFCF6E00A03135 /* OrientationPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationPushViewController.m; sourceTree = "<group>"; };
 		4A925ED72ADCE3280062B799 /* OrientationAutoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationAutoViewController.h; sourceTree = "<group>"; };
@@ -128,8 +125,6 @@
 				4A0789FD2ADFCF6E00A03135 /* OrientationPushViewController.m */,
 				4A925EEC2ADD34020062B799 /* OrientationModalViewController.h */,
 				4A925EED2ADD34020062B799 /* OrientationModalViewController.m */,
-				4A0789F92ADFCDB800A03135 /* OrientationWindowViewController.h */,
-				4A0789FA2ADFCDB800A03135 /* OrientationWindowViewController.m */,
 				4A925EE32ADD29420062B799 /* OrientationHomeViewController.h */,
 				4A925EE42ADD29420062B799 /* OrientationHomeViewController.m */,
 			);
@@ -429,7 +424,6 @@
 				6003F59E195388D20070C39A /* LXAppDelegate.m in Sources */,
 				4AC144782AD945CC003DDD7F /* FirstViewController.m in Sources */,
 				4A0789FE2ADFCF6E00A03135 /* OrientationPushViewController.m in Sources */,
-				4A0789FB2ADFCDB800A03135 /* OrientationWindowViewController.m in Sources */,
 				4AC144772AD945CC003DDD7F /* BaseNavigationViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* LXViewController.m in Sources */,
 				4AC144762AD945CC003DDD7F /* SectionViewController.m in Sources */,

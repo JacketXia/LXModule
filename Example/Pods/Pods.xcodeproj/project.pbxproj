@@ -7,78 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		051FFA5D6E8617AA654FD8A63649984C /* LXOrientationControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CC01AD0D4C5B0A7863E1C34F6A9C8527 /* LXOrientationControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02071C50A17FFC5772A546919E110FAD /* LXOrientationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 766A721CDCD5AF268F7B55C849C8730A /* LXOrientationControl.m */; };
 		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		149C62BAAD19FF7BAAF456292EB207BD /* LXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76213D227C68868DC133270B50DEE5EE /* LXNavigationViewController.m */; };
 		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
 		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		202252EFFE7B6AB953A79D2EC4C321FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		243EADF836C59E4F7BC5C242E4290718 /* LXOrientationControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F175C0A15FE71A16821F3DDBDF31403 /* LXOrientationControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32CFF3A30D2A4A36398458628E12503F /* UINavigationController+LXNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 314A667D9249A50EDDC55C06DA0F56CB /* UINavigationController+LXNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EEBCCEF4C17CF7A84A11AFC1B9C4F4 /* Pods-LXModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5D5403640595FB1756F24DC862A005 /* Pods-LXModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ACE19623CC3B241E32465FF21B60BAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		406481228BD64B88DF2D94E8A54161A3 /* LXNavigationChildControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 142D73F7BF7BAC0A7ABAC0EAD7DC649D /* LXNavigationChildControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		473BBBB99BDDC98540A26CBAF952A180 /* LXWindowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D66BC360596C3F35EC0C5BC950B53100 /* LXWindowManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		494BF54DB69E547896520636C8610A48 /* LXNavigationChildControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 142D73F7BF7BAC0A7ABAC0EAD7DC649D /* LXNavigationChildControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
 		53305278F1654F968B4E02DF71B098BE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCE8C6C17F326AFEDF4357C62ADAF /* MASViewAttribute.m */; };
 		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
 		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
 		5B291E30A432D9C74C4D4743098335D0 /* Pods-LXModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44027B444F0A273B220A4EE843C229DB /* Pods-LXModule_Example-dummy.m */; };
 		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AB2D4AE2D2E7AE9C2191FBA7D04EE10 /* LXLandscapeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F96561733AF78A635101319969EE7D /* LXLandscapeWindow.m */; };
-		6B00B9FA58E800D13E3CFCA362D9B14F /* LXOrientationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EEA9CA10A1183E3F2E8DDA3A688E1D /* LXOrientationControl.m */; };
-		705A3C26C404F43C690E3A997917D42A /* LXLandscapeWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5BF61706CDC96D182C9D01F030F7D4 /* LXLandscapeWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD943DA7401CA30388DFA8BB2D8F314 /* UINavigationController+LXNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 314A667D9249A50EDDC55C06DA0F56CB /* UINavigationController+LXNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72D6CA7DCBA22659FAD268823453C9CE /* UINavigationController+LXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A031AA80EA37AF6C3DC56300859A8831 /* UINavigationController+LXNavigationController.m */; };
-		758CCFF83D5FAA43F3703C0004ADA3B5 /* LXWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D2A63468AD2FEFAB810275863A13B /* LXWindowManager.m */; };
 		75F1F0BF1E4A9940C6838A44B07C836F /* Pods-LXModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678613CEA91C462AB3326CE4F7F1ADC /* Pods-LXModule_Tests-dummy.m */; };
 		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
 		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF2C19B9522CC4F011BD14CFE12626A /* LXModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E65D6A177AFB6EEB14A2E83C03C98B /* LXModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B443D2D5DC6ADDFD38AAE0FE792709 /* LXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76213D227C68868DC133270B50DEE5EE /* LXNavigationViewController.m */; };
+		9E1BCA4253E6A6AE5E6DD8ED4DFC3F90 /* UINavigationController+LXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A031AA80EA37AF6C3DC56300859A8831 /* UINavigationController+LXNavigationController.m */; };
 		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
-		A1524873DEDD5F982DC8A0907990F1C4 /* LXModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AD0B724A62CF0A61C46380B239DF7E /* LXModule-dummy.m */; };
+		A1F9CAFCD5C849359C236D09CFBA1427 /* LXWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E8A12C7BEF7EA31713B0B2D78E04BE /* LXWindowManager.m */; };
+		A3C3FCAECFFCC4A397AFA533F425C473 /* LXModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AD0B724A62CF0A61C46380B239DF7E /* LXModule-dummy.m */; };
 		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7BED14EDBA15E7C1C48E21BD150C34C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		B96A1AE7B240E25387B3F4C3A703FACA /* LXModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18E65D6A177AFB6EEB14A2E83C03C98B /* LXModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51F3C1D32FF203795568A8FF2CE4C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
-		CE3A7FC4FAD68CE5BFD155D17901A5BF /* LXWindowManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 736AE6F103C796E9CDF73BE5D12297AF /* LXWindowManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
 		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEF956BE99A6CFE105BC6EE1990EF697 /* LXNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B200C9484EEF7A5FE3961F1183EE16A6 /* LXNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
-		F666EF2336B3CB0D42EFDAAA2834B4D9 /* LXNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B200C9484EEF7A5FE3961F1183EE16A6 /* LXNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC34A8BA8713FA2E64A2C8774C3220B5 /* Pods-LXModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D904558CC9E095A93E26A21961B4234F /* Pods-LXModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62D0E25811D3F10EDC157238758A52CD /* PBXContainerItemProxy */ = {
+		961DE5D843D44078B78FBD80A8866DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC26003EAE108CB4C39FA4A86B1E38F;
+			remoteInfo = "Pods-LXModule_Example";
+		};
+		A10A6E11F33B8D5250290B920E60DC51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7913566337AC054A24352104047F03F6;
 			remoteInfo = LXModule;
 		};
-		69F14E15AF62DD4BB13FF5E444EEF8D4 /* PBXContainerItemProxy */ = {
+		EA0FE84DC70E0CFC9481734299E44E21 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
-		};
-		78A3B2AF6FF0CB6C743D4DC905822109 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6BC26003EAE108CB4C39FA4A86B1E38F;
-			remoteInfo = "Pods-LXModule_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -88,7 +86,6 @@
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		0613D202CED5B05B7FAB823DA756E54B /* Pods-LXModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		0D5BF61706CDC96D182C9D01F030F7D4 /* LXLandscapeWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXLandscapeWindow.h; path = LXModule/Classes/iOS/Window/LXLandscapeWindow.h; sourceTree = "<group>"; };
 		13EA9C3267167F76DAECB5B40B7591BB /* Pods-LXModule_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LXModule_Tests"; path = Pods_LXModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		142D73F7BF7BAC0A7ABAC0EAD7DC649D /* LXNavigationChildControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXNavigationChildControllerDelegate.h; path = LXModule/Classes/UI/NavigationController/LXNavigationChildControllerDelegate.h; sourceTree = "<group>"; };
 		167A31AA031763637F8266250CDCBB2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
@@ -106,11 +103,11 @@
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		44027B444F0A273B220A4EE843C229DB /* Pods-LXModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXModule_Example-dummy.m"; sourceTree = "<group>"; };
 		4678613CEA91C462AB3326CE4F7F1ADC /* Pods-LXModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		46F96561733AF78A635101319969EE7D /* LXLandscapeWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXLandscapeWindow.m; path = LXModule/Classes/iOS/Window/LXLandscapeWindow.m; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		4BBAA4EE33AA522CFB3D5B1AFF46E35A /* LXModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXModule-prefix.pch"; sourceTree = "<group>"; };
 		4D0C694BC76A264C11FF06A158A0AD40 /* Pods-LXModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4F175C0A15FE71A16821F3DDBDF31403 /* LXOrientationControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXOrientationControl.h; path = LXModule/Classes/iOS/Orientation/LXOrientationControl.h; sourceTree = "<group>"; };
 		5278627334758B128DF03F1C5D9EBDD7 /* Pods-LXModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXModule_Tests.modulemap"; sourceTree = "<group>"; };
 		53AD0B724A62CF0A61C46380B239DF7E /* LXModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXModule-dummy.m"; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
@@ -120,8 +117,8 @@
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		736AE6F103C796E9CDF73BE5D12297AF /* LXWindowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXWindowManager.h; path = LXModule/Classes/iOS/Window/LXWindowManager.h; sourceTree = "<group>"; };
 		76213D227C68868DC133270B50DEE5EE /* LXNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXNavigationViewController.m; path = LXModule/Classes/UI/NavigationController/LXNavigationViewController.m; sourceTree = "<group>"; };
+		766A721CDCD5AF268F7B55C849C8730A /* LXOrientationControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXOrientationControl.m; path = LXModule/Classes/iOS/Orientation/LXOrientationControl.m; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
@@ -139,18 +136,17 @@
 		B200C9484EEF7A5FE3961F1183EE16A6 /* LXNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXNavigationViewController.h; path = LXModule/Classes/UI/NavigationController/LXNavigationViewController.h; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		B3EE6EE75C6298FF8477F63F89C9092F /* Pods-LXModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXModule_Example-Info.plist"; sourceTree = "<group>"; };
-		B6EEA9CA10A1183E3F2E8DDA3A688E1D /* LXOrientationControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXOrientationControl.m; path = LXModule/Classes/iOS/Orientation/LXOrientationControl.m; sourceTree = "<group>"; };
 		BB7AE518023BF5A532864417F39810C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BD5D5403640595FB1756F24DC862A005 /* Pods-LXModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		C2E8A12C7BEF7EA31713B0B2D78E04BE /* LXWindowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXWindowManager.m; path = LXModule/Classes/iOS/Window/LXWindowManager.m; sourceTree = "<group>"; };
 		C6BD4C6439C079BF3C60435479F64E43 /* LXModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LXModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC01AD0D4C5B0A7863E1C34F6A9C8527 /* LXOrientationControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXOrientationControl.h; path = LXModule/Classes/iOS/Orientation/LXOrientationControl.h; sourceTree = "<group>"; };
 		D0C2BACFD11DF9DA179D2D8B6854568C /* LXModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXModule.modulemap; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D66BC360596C3F35EC0C5BC950B53100 /* LXWindowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXWindowManager.h; path = LXModule/Classes/iOS/Window/LXWindowManager.h; sourceTree = "<group>"; };
 		D904558CC9E095A93E26A21961B4234F /* Pods-LXModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		E63D2A63468AD2FEFAB810275863A13B /* LXWindowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXWindowManager.m; path = LXModule/Classes/iOS/Window/LXWindowManager.m; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		E8A20E8152A38218BCF64D3EAA63FA04 /* Pods-LXModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -171,14 +167,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE3929F3358EC9BE523BEFD571CC050D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3ACE19623CC3B241E32465FF21B60BAB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CCB6E60691DB58C9D2C0F26733F25C2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +181,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7BED14EDBA15E7C1C48E21BD150C34C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E00CD477CBCEF5279E9F33F9783963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51F3C1D32FF203795568A8FF2CE4C8B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,15 +249,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D99E86DC62E0F00BFF5A7675058550D /* Orientation */ = {
-			isa = PBXGroup;
-			children = (
-				CC01AD0D4C5B0A7863E1C34F6A9C8527 /* LXOrientationControl.h */,
-				B6EEA9CA10A1183E3F2E8DDA3A688E1D /* LXOrientationControl.m */,
-			);
-			name = Orientation;
-			sourceTree = "<group>";
-		};
 		442B896789983B361F9636DB3A96FA7E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,12 +275,30 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
+		70BEB8119AFD8667D04489765EA552E4 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				D66BC360596C3F35EC0C5BC950B53100 /* LXWindowManager.h */,
+				C2E8A12C7BEF7EA31713B0B2D78E04BE /* LXWindowManager.m */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
 		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				0CCC0CD98AB951949302B433AFE762AD /* Masonry */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7922A2330AB2F494DAB2C9284FF62743 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C3E128FBBE1F964543125B336FFF4BFB /* Orientation */,
+				70BEB8119AFD8667D04489765EA552E4 /* Window */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		84D86DBC686EE1011BD4106FAE0A6D71 /* Support Files */ = {
@@ -365,6 +370,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C3E128FBBE1F964543125B336FFF4BFB /* Orientation */ = {
+			isa = PBXGroup;
+			children = (
+				4F175C0A15FE71A16821F3DDBDF31403 /* LXOrientationControl.h */,
+				766A721CDCD5AF268F7B55C849C8730A /* LXOrientationControl.m */,
+			);
+			name = Orientation;
+			sourceTree = "<group>";
+		};
 		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,22 +409,13 @@
 		D50D1124C231ED88CCA16978B205EFF3 /* LXModule */ = {
 			isa = PBXGroup;
 			children = (
-				D8AC67667A56B5A23FAC42B60B66CA3A /* iOS */,
+				7922A2330AB2F494DAB2C9284FF62743 /* iOS */,
 				88F18AFA2435AE92CFA4DA5497D40C37 /* Pod */,
 				84D86DBC686EE1011BD4106FAE0A6D71 /* Support Files */,
 				6B52EBA74F560C82A73B6E59CE9FFEEA /* UI */,
 			);
 			name = LXModule;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		D8AC67667A56B5A23FAC42B60B66CA3A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1D99E86DC62E0F00BFF5A7675058550D /* Orientation */,
-				FB7A0B90A5D76DC86AD75ED97ED39949 /* Window */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		F32BF14C229C56DA7579BAC4CB92DE59 /* Development Pods */ = {
@@ -421,34 +426,9 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FB7A0B90A5D76DC86AD75ED97ED39949 /* Window */ = {
-			isa = PBXGroup;
-			children = (
-				0D5BF61706CDC96D182C9D01F030F7D4 /* LXLandscapeWindow.h */,
-				46F96561733AF78A635101319969EE7D /* LXLandscapeWindow.m */,
-				736AE6F103C796E9CDF73BE5D12297AF /* LXWindowManager.h */,
-				E63D2A63468AD2FEFAB810275863A13B /* LXWindowManager.m */,
-			);
-			name = Window;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32A8E6B0E1BCE540C115376BED166658 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				705A3C26C404F43C690E3A997917D42A /* LXLandscapeWindow.h in Headers */,
-				B96A1AE7B240E25387B3F4C3A703FACA /* LXModule-umbrella.h in Headers */,
-				406481228BD64B88DF2D94E8A54161A3 /* LXNavigationChildControllerDelegate.h in Headers */,
-				F666EF2336B3CB0D42EFDAAA2834B4D9 /* LXNavigationViewController.h in Headers */,
-				051FFA5D6E8617AA654FD8A63649984C /* LXOrientationControl.h in Headers */,
-				CE3A7FC4FAD68CE5BFD155D17901A5BF /* LXWindowManager.h in Headers */,
-				32CFF3A30D2A4A36398458628E12503F /* UINavigationController+LXNavigationController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		44CBE3C7092DAA8556F227B82186E3F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,6 +468,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDBE93BF7D542B1E1AD87E72EC0D0AEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF2C19B9522CC4F011BD14CFE12626A /* LXModule-umbrella.h in Headers */,
+				494BF54DB69E547896520636C8610A48 /* LXNavigationChildControllerDelegate.h in Headers */,
+				DEF956BE99A6CFE105BC6EE1990EF697 /* LXNavigationViewController.h in Headers */,
+				243EADF836C59E4F7BC5C242E4290718 /* LXOrientationControl.h in Headers */,
+				473BBBB99BDDC98540A26CBAF952A180 /* LXWindowManager.h in Headers */,
+				6DD943DA7401CA30388DFA8BB2D8F314 /* UINavigationController+LXNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -521,8 +514,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				65A47B602ECCF94281C0A3625744C2AE /* PBXTargetDependency */,
-				41770460B48814983C737099754799AD /* PBXTargetDependency */,
+				BE99ED3F6DE175E05BC80D41EA5F3BA2 /* PBXTargetDependency */,
+				DF7E5F69F98DEE25D420D97AB3161F5E /* PBXTargetDependency */,
 			);
 			name = "Pods-LXModule_Example";
 			productName = Pods_LXModule_Example;
@@ -531,12 +524,12 @@
 		};
 		7913566337AC054A24352104047F03F6 /* LXModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A993C5BABC1E8E096BE3AB29F677664 /* Build configuration list for PBXNativeTarget "LXModule" */;
+			buildConfigurationList = 92F9D240907FFB97AB52238FD6D2D937 /* Build configuration list for PBXNativeTarget "LXModule" */;
 			buildPhases = (
-				32A8E6B0E1BCE540C115376BED166658 /* Headers */,
-				9245DA9FFA1FF4A0EED6ECC8ADC28B67 /* Sources */,
-				AE3929F3358EC9BE523BEFD571CC050D /* Frameworks */,
-				3798D63E66AB9393DFA0187EE130F342 /* Resources */,
+				CDBE93BF7D542B1E1AD87E72EC0D0AEA /* Headers */,
+				4A31726E14C725FB6D9CBC06AB772CCA /* Sources */,
+				E1E00CD477CBCEF5279E9F33F9783963 /* Frameworks */,
+				C0F16B9ABFE9A21696B74823BA73C42D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -559,7 +552,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F44D31F506F56528963CFC7CF3D139A9 /* PBXTargetDependency */,
+				0ACB7473B3DDE2789DC0F4E31C947D1F /* PBXTargetDependency */,
 			);
 			name = "Pods-LXModule_Tests";
 			productName = Pods_LXModule_Tests;
@@ -604,13 +597,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3798D63E66AB9393DFA0187EE130F342 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3880AACF6E788D027240F6E52BD906DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -619,6 +605,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4522D50300D635138BEDBF5E60D39B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F16B9ABFE9A21696B74823BA73C42D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -654,16 +647,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9245DA9FFA1FF4A0EED6ECC8ADC28B67 /* Sources */ = {
+		4A31726E14C725FB6D9CBC06AB772CCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AB2D4AE2D2E7AE9C2191FBA7D04EE10 /* LXLandscapeWindow.m in Sources */,
-				A1524873DEDD5F982DC8A0907990F1C4 /* LXModule-dummy.m in Sources */,
-				149C62BAAD19FF7BAAF456292EB207BD /* LXNavigationViewController.m in Sources */,
-				6B00B9FA58E800D13E3CFCA362D9B14F /* LXOrientationControl.m in Sources */,
-				758CCFF83D5FAA43F3703C0004ADA3B5 /* LXWindowManager.m in Sources */,
-				72D6CA7DCBA22659FAD268823453C9CE /* UINavigationController+LXNavigationController.m in Sources */,
+				A3C3FCAECFFCC4A397AFA533F425C473 /* LXModule-dummy.m in Sources */,
+				90B443D2D5DC6ADDFD38AAE0FE792709 /* LXNavigationViewController.m in Sources */,
+				02071C50A17FFC5772A546919E110FAD /* LXOrientationControl.m in Sources */,
+				A1F9CAFCD5C849359C236D09CFBA1427 /* LXWindowManager.m in Sources */,
+				9E1BCA4253E6A6AE5E6DD8ED4DFC3F90 /* UINavigationController+LXNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,23 +670,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41770460B48814983C737099754799AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 69F14E15AF62DD4BB13FF5E444EEF8D4 /* PBXContainerItemProxy */;
-		};
-		65A47B602ECCF94281C0A3625744C2AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LXModule;
-			target = 7913566337AC054A24352104047F03F6 /* LXModule */;
-			targetProxy = 62D0E25811D3F10EDC157238758A52CD /* PBXContainerItemProxy */;
-		};
-		F44D31F506F56528963CFC7CF3D139A9 /* PBXTargetDependency */ = {
+		0ACB7473B3DDE2789DC0F4E31C947D1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LXModule_Example";
 			target = 6BC26003EAE108CB4C39FA4A86B1E38F /* Pods-LXModule_Example */;
-			targetProxy = 78A3B2AF6FF0CB6C743D4DC905822109 /* PBXContainerItemProxy */;
+			targetProxy = 961DE5D843D44078B78FBD80A8866DA3 /* PBXContainerItemProxy */;
+		};
+		BE99ED3F6DE175E05BC80D41EA5F3BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXModule;
+			target = 7913566337AC054A24352104047F03F6 /* LXModule */;
+			targetProxy = A10A6E11F33B8D5250290B920E60DC51 /* PBXContainerItemProxy */;
+		};
+		DF7E5F69F98DEE25D420D97AB3161F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = EA0FE84DC70E0CFC9481734299E44E21 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -833,39 +825,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		34FAC97386ECA8D2F66968E6740737B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29E96356F1221387D76638D05737FE4C /* LXModule.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LXModule/LXModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LXModule/LXModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LXModule/LXModule.modulemap";
-				PRODUCT_MODULE_NAME = LXModule;
-				PRODUCT_NAME = LXModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -1032,6 +991,40 @@
 			};
 			name = Debug;
 		};
+		BAFDB9C915CC473E4716770EC5A0B5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0CF81D56688B865D95DB14B56EC2EF4 /* LXModule.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXModule/LXModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXModule/LXModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXModule/LXModule.modulemap";
+				PRODUCT_MODULE_NAME = LXModule;
+				PRODUCT_NAME = LXModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C04311F003FF01574AED0BA9C8512F14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D0C694BC76A264C11FF06A158A0AD40 /* Pods-LXModule_Example.debug.xcconfig */;
@@ -1067,9 +1060,9 @@
 			};
 			name = Debug;
 		};
-		E1B704CC9E3EE2073AA4F0B5F5E45E0F /* Release */ = {
+		D4325990E0037D95E6F4ACFECA9B5E7C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0CF81D56688B865D95DB14B56EC2EF4 /* LXModule.release.xcconfig */;
+			baseConfigurationReference = 29E96356F1221387D76638D05737FE4C /* LXModule.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1095,11 +1088,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1113,20 +1105,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A993C5BABC1E8E096BE3AB29F677664 /* Build configuration list for PBXNativeTarget "LXModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				34FAC97386ECA8D2F66968E6740737B9 /* Debug */,
-				E1B704CC9E3EE2073AA4F0B5F5E45E0F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
 				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F9D240907FFB97AB52238FD6D2D937 /* Build configuration list for PBXNativeTarget "LXModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4325990E0037D95E6F4ACFECA9B5E7C /* Debug */,
+				BAFDB9C915CC473E4716770EC5A0B5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

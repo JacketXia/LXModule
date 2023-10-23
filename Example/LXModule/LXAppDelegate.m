@@ -8,7 +8,6 @@
 
 #import "LXAppDelegate.h"
 #import <LXModule/LXOrientationControl.h>
-#import <LXModule/LXLandscapeWindow.h>
 
 @implementation LXAppDelegate
 
@@ -19,10 +18,7 @@
 }
 
 - (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
-    NSLog(@"%@",window);
-    if ([LXLandscapeWindow canRespond:window]) {
-        return [LXLandscapeWindow supportOrientaion:window];
-    }else if (LXOrientationControl.canRespond) {
+    if (LXOrientationControl.canRespond) {
         return LXOrientationControl.supportOrientation;
     }
     return UIInterfaceOrientationMaskPortrait;
