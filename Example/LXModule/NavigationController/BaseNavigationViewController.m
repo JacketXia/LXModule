@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view.
     
     self.lx_globalBackItem = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:self action:@selector(onBack)];
+    self.navigationBar.translucent = false;
+    self.navigationBar.backgroundColor = UIColor.whiteColor;
 }
 
 - (void)onBack {

@@ -26,31 +26,7 @@
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
     }
-    
-    /// 自定义返回按钮
-    UIBarButtonItem *backItem = self.lx_globalBackItem;
-    if ( [viewController respondsToSelector:@selector(lx_backBarButtonItem)]) {
-        backItem = [viewController performSelector:@selector(lx_backBarButtonItem)];
-    }
-    viewController.navigationItem.leftBarButtonItem = backItem;
-    
     [super pushViewController:viewController animated:animated];
-}
-
-- (void)replaceViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if (self.viewControllers.count > 1) {
-        viewController.hidesBottomBarWhenPushed = YES;
-    }
-    
-    /// 自定义返回按钮
-    UIBarButtonItem *backItem = self.lx_globalBackItem;
-    if ( [viewController respondsToSelector:@selector(lx_backBarButtonItem)]) {
-        backItem = [viewController performSelector:@selector(lx_backBarButtonItem)];
-    }
-    viewController.navigationItem.leftBarButtonItem = backItem;
-    
-    [super replaceViewController:viewController animated:animated];
-
 }
 
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
@@ -61,7 +37,17 @@
     }
     [self setNavigationBarHidden:!showNavigationBar animated:YES];
     
-
+    /// 设置全局返回按钮
+    BOOL isRootVC = viewController == navigationController.viewControllers.firstObject;
+    BOOL hasSetLeftItem = viewController.navigationItem.leftBarButtonItem != nil;
+    if (!isRootVC && !hasSetLeftItem) {
+        /// 自定义返回按钮
+        if ( [viewController respondsToSelector:@selector(lx_backBarButtonItem)]) {
+            viewController.navigationItem.leftBarButtonItem = [viewController performSelector:@selector(lx_backBarButtonItem)];
+        }else if (nil != self.lx_globalBackItem){
+            viewController.navigationItem.leftBarButtonItem = self.lx_globalBackItem;
+        }
+    }
 }
 
 - (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {

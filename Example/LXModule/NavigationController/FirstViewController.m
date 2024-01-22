@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-#import "SectionViewController.h"
+#import "DetailViewController.h"
 #import <LXModule/LXNavigationViewController.h>
 
 @interface FirstViewController ()<LXNavigationChildControllerDelegate>
@@ -29,7 +29,7 @@
     
     self.view.backgroundColor = UIColor.blueColor;
     
-    self.title = @"一级页";
+    self.title = @"tab1";
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = self.view.bounds;
@@ -39,25 +39,11 @@
 }
 
 - (void)onButton {
-//    [self.navigationController replaceViewController:[[SectionViewController alloc] init] animated:YES];
-//    [self.navigationController pushViewController:[[SectionViewController alloc] init] animated:YES];
-    BLLog(@"dadadada");
+    [self.navigationController pushViewController:[[DetailViewController alloc] init] animated:YES];
 }
 
 - (BOOL)lx_showNavigationBar {
-    return true;
-}
-
-- (BOOL)lx_enablePopGesture {
     return false;
-}
-
-- (UIBarButtonItem *)lx_backBarButtonItem {
-    return [[UIBarButtonItem alloc] initWithTitle:@"别致的按钮" style:UIBarButtonItemStylePlain target:self action:@selector(onBack)];
-}
-
-- (void)onBack {
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*

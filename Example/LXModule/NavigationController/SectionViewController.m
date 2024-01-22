@@ -7,7 +7,7 @@
 //
 
 #import "SectionViewController.h"
-#import "FirstViewController.h"
+#import "DetailViewController.h"
 #import <LXModule/LXNavigationViewController.h>
 
 @interface SectionViewController ()<LXNavigationChildControllerDelegate>
@@ -22,7 +22,7 @@
     
     self.view.backgroundColor = UIColor.cyanColor;
     
-    self.title = @"二级页";
+    self.title = @"tab2";
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = self.view.bounds;
@@ -31,16 +31,13 @@
 }
 
 - (void)onButton {
-    [self.navigationController pushViewController:[[FirstViewController alloc] init] animated:YES];
+    [self.navigationController pushViewController:[[DetailViewController alloc] init] animated:YES];
 }
 
 - (BOOL)lx_showNavigationBar {
     return true;
 }
 
-- (BOOL)lx_enablePopGesture {
-    return true;
-}
 
 /*
  #pragma mark - Navigation
