@@ -21,6 +21,18 @@
     
 }
 
+- (void)setNavigationBarBackgroudColor:(UIColor *)navigationBarBackgroudColor {
+    _navigationBarBackgroudColor = navigationBarBackgroudColor;
+    if (@available(iOS 15.0, *)) {
+        UINavigationBarAppearance *apperance = [[UINavigationBarAppearance alloc] init];
+        apperance.backgroundColor = navigationBarBackgroudColor;
+        self.navigationBar.standardAppearance = apperance;
+        self.navigationBar.scrollEdgeAppearance = apperance;
+    } else {
+        self.navigationBar.barTintColor = navigationBarBackgroudColor;
+    }
+}
+
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     /// 隐藏底部条
     if (self.viewControllers.count > 0) {
